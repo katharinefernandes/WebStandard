@@ -1,2 +1,2 @@
 # WebStandard
-Repositório destinado aos desenvolvimentos realizados durante a aula de Web do 1° ano do curso de Sistemas de Informação na FIAP.
+Códigos desenvolvidos em HTML, CSS e JS na disciplina de WebStandard durante o 1º ano do curso de graduação em Sistemas de Informação da FIAP.
