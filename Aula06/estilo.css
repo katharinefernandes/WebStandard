@@ -1,0 +1,34 @@
+p {
+    text-align: center;
+    color: green;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+body {
+    background-color: #F0E68C;
+}
+
+h2,
+h3,
+p {
+    text-align: center;
+    color: coral;
+}
+
+#paragrafo {
+    text-align: justify;
+    color: blue;
+}
+
+.center {
+    text-align: center;
+}
+
+p.center {
+    text-align: right;
+    color: #FFF8DC;
+}

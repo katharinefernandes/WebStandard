@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 05 - Cadastro</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+
+  <style>
+    body {
+      font: 400 1rem "DM Sans", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Cadastro</h1>
+    <hr />
+  </header>
+  <section>
+    <form name="cadastro" action="#" method="POST">
+      <p>
+        <label for="nome">Primeiro Nome:</label>
+        <input type="text" size="35" maxlength="60" placeholder="Insira seu primeiro nome" required />
+      </p>
+      <p>
+        <label for="endereco">Endereço:</label>
+        <input type="text" size="40" maxlength="100" placeholder="Insira seu endereço" required />
+      </p>
+      <p>
+        <label for="cep">CEP: </label>
+        <input type="text" size="22" maxlength="9" placeholder="Insira seu CEP" required />
+
+        <label for="estado">Estado: </label>
+        <select name="estados" id="estados">
+          <option value="">-</option>
+          <option value="SP">São Paulo</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="ES">Espirito Santo</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="SC">Santa Catarina</option>
+        </select>
+      </p>
+      <p>
+        <label for="idade">Idade:</label>
+        <input type="number" min="1" max="100" maxlength="3" />
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" size="40" required />
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" size="44" maxlength="60" placeholder="Insira seu Email" required />
+      </p>
+      <p>
+        <label for="senha">Senha:</label>
+        <input type="password" size="43" maxlength="10" placeholder="Insira sua senha" required />
+      </p>
+      <p>
+        <label for="observacao">Observações:</label>
+        <textarea name="observacao" id="observacao" cols="38" rows="5"></textarea>
+      </p>
+      <br />
+      <input type="reset" value="Limpar Dados">
+      <input type="submit" value="Enviar Dados">
+    </form>
+  </section>
+  <footer>
+    <hr />
+    <div style="text-align: center;">
+      <small>© Katharine Fernandes</small>
+    </div>
+  </footer>
+</body>
+
+</html>
