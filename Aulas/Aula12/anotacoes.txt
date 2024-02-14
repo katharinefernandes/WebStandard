@@ -1,0 +1,6 @@
+Código: compilado ou interpretado (define o desempenho do software a ser desenvolvido)
+ 
+Compilado - maior parte do lado servidor, local que recebe as requisições
+Interpretado - podem ser chamadas de script, é um trecho de código que é lido por outro software. O JavcaScript é uma linguagem interpretada, o navegador lê o código e realiza a interpretação, ou seja, realiza a execução do código sem necessitar da compilação do mesmo
+
+
