@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula DOM 02</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <p>Clique no botão para abrir uma nova janela</p>
+    <button onclick="abrirJanela()">Nova janela</button>
+    <br />
+    <p id="exemplo">Aprendendo capturar elementos</p>
+    <button onclick="mudaConteudo()">Clique Aqui</button>
+    <button onclick="voltarTexto()">Desfazer</button>
+    <br />
+    <p class="ex">Primeiro elemento com a classe</p>
+    <p class="ex">Segundo elemento com a classe</p>
+    <!-- Aciona eventos fora de formulários -->
+    <button onclick="mudaClasse()">Alterando com a classe</button>
+    <h2>Campos de um formulário</h2>
+    <form id="form1">
+      <label for="none">Primeiro Nome:</label>
+      <input type="text" id="nome" value="Katharine" /><br />
+      <label for="ultimoNome">Último Nome:</label>
+      <input type="text" id="sobrenome" value="Fernandes" /><br />
+      <!-- input type="button" utilizado dentro do form, por ser uma tag especifica para utilização em formulários -->
+      <input type="submit" onclick="pegarNome()" value="Clique aqui">
+    </form>
+    <p>Clique no botão para capturar o conteúdo dos campos</p>
+    <p id="resultado"></p>
+  </body>
+</html>
