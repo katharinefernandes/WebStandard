@@ -1,0 +1,16 @@
+body {
+    background-color: aliceblue;
+    color: #444;
+}
+
+.classe1 {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: cadetblue;
+}
+
+.classe2 {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: goldenrod;
+}
