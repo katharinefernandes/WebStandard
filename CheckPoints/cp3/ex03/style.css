@@ -1,0 +1,7 @@
+.senha-valida {
+    border: 2px solid green;
+}
+
+.senha-invalida {
+    border: 2px solid red;
+}
